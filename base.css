@@ -1,0 +1,161 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #f1f1f1;
+}
+
+header a:hover{
+    border-bottom: 2px solid #f1f1f1;
+}
+
+main {
+    background-color: white;
+    min-height: fit-content;
+    width: 100%;
+}
+
+p{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+span{
+    color: #166C67;
+    font-weight: bold;
+}
+
+article{
+    padding: 25px 80px;
+}
+
+.color{
+    color: #166C67;
+}
+
+table{
+    width: 800px;
+    height: 150px;
+    margin: 25px 80px;
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 1.3em;
+    color: #ffffff;
+    background-color: rgb(5, 108, 108);
+}
+
+.tratamento{
+    text-align: justify;
+    font-size: 1.15em;
+    background-color: #f1f1f1;
+}
+
+.text-center{
+    text-align: center;
+    font-size: 1.1em;
+    background-color: #f1f1f1;
+}
+
+footer{
+    background-color: #166C67;
+    width: 100%;
+    min-height: 100px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#redes h2{
+    font-size: 1em;
+    color: #ffffff;
+}
+
+#logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 80px;
+    margin-bottom: 25px;
+    gap: 15px;
+}
+
+input{
+    height: 45px;
+    padding: 5px;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+textarea{
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: #166C67;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+iframe{
+    position: absolute;
+    top: 250px;
+    left: 650px;
+}
